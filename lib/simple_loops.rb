@@ -22,5 +22,5 @@ def return_string_array(array)
     puts array[counter]
     counter += 1
   end
-  array.each { i.to_s }
+  array.each { |i| i.to_s }
 end
