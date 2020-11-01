@@ -16,11 +16,11 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  counter = 0
+  count = 0
   new_array = [ ]
   while count < array.length do
     new_array.push(array[count].to_s)
-    counter += 1
+    count += 1
   end
   new_array
 end
